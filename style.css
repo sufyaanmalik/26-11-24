@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body , ul , h1, h2, h3, h4 , h5 , h6 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Public Sans';
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 , h2 {
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Inter';
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 45px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 23px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+}
+
+header li {
+    display: inline-block;
+    font-family: 'Public Sans';
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+header span {
+    font-family: 'Public Sans';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.head-left , .head-rt {
+    width: 40%;
+}
+
+.head-rt {
+    text-align: right;
+}
+
+.logo {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header input {
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #565c65;
+    padding: 0px 10px;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.banner {
+    height: 650px;
+    background: url('assets/images/nasa-holiday-fireplace-key-art-r1-horizontal-program-tile-16-9-without-title.webp') no-repeat;
+    background-color: #000000a1;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    ;
+}
+
+.ban-con {
+    width: 46%;
+}
+
+.banner h1 {
+    color: #fff;
+}
+
+.banner p{
+    color:#fff
+}
+
+.earth{
+    background:url('assets/images/ksc-20171214-ph-sww01-0009orig.webp') no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-color: #000000a1;
+    background-blend-mode: overlay;
+    color: #fff;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+}
+
+.earth-con {
+    width: 45%;
+}
+
+.earth-con p {
+    padding-bottom: 25px;
+}
+
+.earth-con .arrow-btn a {
+    color: #fff;
+}
+
+.featured-sec {
+    padding: 100px 0;
+}
+
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.arrow-btn img {
+    width: 18px;
+    transform: rotate(225deg);
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
+
+.arrow-btn a {
+    font-size: 22px;
+    line-height: 22px;
+    color: #000;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.articles {
+    color: #fff;
+    display: flex;
+    gap: 15px;
+}
+
+.atircle1 {
+    background: url(assets/images/hotneptune-1280c.webp) no-repeat;
+    background-size: cover;
+    background-color: #000000a1;
+    background-blend-mode: overlay;
+    padding: 25px;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.article2 , .article3 {
+    width: 25%;
+}
+
+.article2 {
+    background: url(assets/images/Cyg_X-3_illustration_AC.jpg) no-repeat center;
+    background-size: cover;
+    background-color: #000000a1;
+    background-blend-mode: overlay;
+}
+
+.inner-div1, .inner-div2 {
+    background: url(assets/images/webb-stsci-01jcgz71j2wy7vrn04ypbyb5x4-2k.webp) no-repeat;
+    background-size: cover;
+    background-color: #000000a1;
+    background-blend-mode: overlay;
+    height: 142px;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.inner-div2 {
+    background: url(assets/images/1-pia26443-spacecraft-illustration.webp) no-repeat;
+    background-size: cover;
+    background-color: #000000a1;
+    background-blend-mode: overlay;
+}
+
+.humans-sec .container{
+    display: flex;
+    gap: 20px;
+}
+
+.humans-article{
+    background: url(assets/images/iss063e053998~large.jpg) no-repeat;
+    background-size: cover;
+    background-color: #000000c0;
+    color: #fff;
+    background-blend-mode: overlay;
+    padding: 25px;
+    width: 25%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.sec-left p{ 
+    font-size: 30px;
+    font-weight: 700;
+}
+.humans-article2{
+    background: url(assets/images/edu_srch_microsofts_hacking_stem.webp) no-repeat;
+    background-color: #000000c0;
+    background-blend-mode: overlay;
+
+}
+.humans-article3{
+    background: url(assets/images/iss041e012095~large.jpg) no-repeat;
+    background-color: #000000c0;
+    background-blend-mode: overlay;
+
+}
+.humans-article4{
+    background: url(assets/images/meir-2.webp) no-repeat;
+    background-color: #000000c0;
+    background-blend-mode: overlay;
+
+}
+
+.imageoftheday .container{
+    display: flex;
+    padding-top: 70px;
+}
+.sec-l{
+    width: 35%;
+    padding-right: 70px;
+}
+.sec-l h3{
+    font-size: 40px;
+    padding-bottom: 70px;
+}
+.sec-l h5{
+    font-size: 16px;
+}
+
+.sec-l p{
+    padding-bottom: 20px;
+}
+.sec-r{
+    background:url("assets/images/0302398orig.webp") no-repeat;
+    background-size: cover;
+    width: 65%;
+    height: 550px;
+}
+
+.human-second {
+    padding-top: 70px;
+}
+
+.human-second-con {
+    padding-bottom: 70px;
+}
